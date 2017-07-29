@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box;
+}
+
+.location, .program, .gift, .question, .contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+}
+body{
+   background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+}
+/*header layout*/
+
+.wedding {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  background-size: cover;
+  height: 100vh;
+  width:100vw;
+  color: hsla(0,0%,100%,.7);
+  text-align:center;
+  display:table;
+}
+.zoe{ 
+   display: table-cell;
+   vertical-align:middle;
+   line-height:3rem;
+   
+}
+.alex h1{
+  font-variant:small-caps;
+}
+.alex span,h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size:1.5rem;
+}
+.alex h3{
+  font-family: 'Great Vibes', cursive;
+  font-size:4rem;
+  color:#d2ba87;
+}
+.alex hr{
+  text-align:center;
+  width:11rem;
+  border: 0 none;
+  border-top: 1px solid #d2ba87; 
+  height:1px;   
+  margin-bottom:2rem;
+}
+.alex{
+  background: hsla(100,0%,0%,.6);
+  margin:0 auto;
+  padding:.625rem;
+}
+
+.alex span::before,
+.alex span::after
+    {  
+  display: inline-block;
+  content: "";    
+  width:2rem;
+  border: 0 none;
+  border-top: 1px solid #d2ba87; 
+  height:1px;   
+  vertical-align:middle;
+}
+
+@media (min-width:768px) 
+  {
+    .alex{
+      width:50%;
+      margin:auto;
+    }  
+    .alex h3{
+      font-size:5rem;
+    }
+  }
+
+
+/*section location layout*/
+.location{
+  color: #444349;
+  width:95vw;
+}
+
+.location h2{
+  text-align:center;
+  font-family: 'Great Vibes', cursive;
+  font-size:3rem;
+  padding-top:2rem;
+}
+.ceremony{
+  text-align:center;
+  font-family: 'Muli', sans-serif;
+  line-height:2rem;
+  font-size:1.1rem;
+  font-weight:lighter;
+  background:#D8D9D9
+  display:block;
+}
+.first h2{
+  font-family: 'Muli', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-size:1.5rem;
+  font-weight:bold;
+  margin-bottom:1.5rem;
+}
+
+img{
+  height:10rem; 
+}
+
+.first hr{
+  text-align:center;
+  width:10rem;
+  border: 0 none;
+  border-top: 3px solid #444349; 
+  height:1px;   
+  
+  }
+
+@media (min-width:768px) {
+  .first{
+    display:inline-block;
+    width:30%;
+    margin: .5rem;
+    padding:1rem;
+   
+    
+  }
+  .first hr{
+    display:none;
+  }
+}
+
+/*section program layout*/
+
+.program{
+  color:#d2ba87;
+  background-color:hsla(100,0%,0%,.6);
+  width:100vw;  
+}
+
+.program h2{
+  text-align:center;
+  font-family: 'Great Vibes', cursive;
+  font-size:3rem;
+  padding-top:2rem;
+}
+.going q{
+  font-size:1.rem;
+  line-height:4rem;
+  font-family: 'Muli', sans-serif;
+   
+}
+.going p{
+  font-family: 'Muli', sans-serif;
+  line-height:2rem;
+  font-size:1.1rem;
+  font-weight:lighter;
+  padding-bottom:2rem;
+}
+
+@media (min-width:768px) {
+ 
+  .going{
+    width:30%;
+    margin:auto;
+    
+  }
+  .going q{
+    line-height:2rem;
+  }
+  .going p{
+    padding-top:2rem;
+  }
+  
+}
+  
+
+/*section gifts layout*/
+
+.gift {
+ text-align:center;
+ line-height:2rem;
+ font-size:1.1rem;
+ color: #444349;
+ padding-bottom:2rem;
+ width:95vw;
+}
+.gift h2{
+  font-family: 'Great Vibes', cursive;
+  font-size:3rem;
+  padding-top:2rem;
+  margin-bottom:2rem;
+  
+}
+.gift p{
+  font-family: 'Libre Baskerville', serif;
+}
+
+/*section question & answers layout */
+
+.question{
+  background-color:hsla(100,0%,0%,.6);
+  color:#d2ba87;
+  width:100vw; 
+  margin:0;
+}
+ 
+.question h2{
+  text-align:center;
+  font-family: 'Great Vibes', cursive;
+  font-size:3rem;
+  padding-top:2rem;
+  margin-bottom:1.5rem;
+}
+
+.answers{   
+  font-family: 'Muli', sans-serif;
+  line-height:2rem;
+  font-size:1.1rem; 
+  display:block;
+}
+
+.travel p{
+  margin:0 1rem;
+}
+
+.travel h3{
+  font-family: 'Libre Baskerville', serif;
+  font-size:1.1rem;
+  text-align:center;
+  font-weight:bold;
+  margin-bottom:1rem;
+}
+
+.travel hr{
+  text-align:center;
+  width:11rem;
+  border: 0 none;
+  border-top: 2px solid #d2ba87; 
+  height:1px;   
+  
+  }
+.strong{
+  font-weight:bold;
+  
+}
+.travel a {
+  color:#bd806e;
+}
+
+.travel a:hover{
+  color:#eda087;
+}
+
+.and{
+  margin-bottom:1.5rem
+}
+
+@media (min-width:768px) {
+  .travel{
+    display:inline-block;
+    width:30%;
+    margin: .5rem;
+    padding:1rem;
+    vertical-align: top;
+     }
+  
+  .travel hr{
+    display:none;
+  }
+}
+
+/*section contact layout*/
+
+.contact{
+  width:95vw;
+  text-align:center;
+  color: #444349;
+  line-height:3rem;
+}
+
+.contact h2{
+  font-family: 'Great Vibes', cursive;
+  font-size:3rem;
+ 
+}
+.contact p{
+  font-size:1.1rem;
+  }
+
+.contact a{
+  font-size:1.1rem;
+  color:#bd806e;
+}
+.contact a:hover{
+  color:#eda087
+}
+  
+/*section footer */
+
+footer {
+  display: table;
+  width: 100vw;
+  height: 6rem;
+  text-align: center;
+  margin:0;
+  padding: 1rem;
+  font-family: 'Libre Baskerville', serif;
+  font-size: .775rem;
+  background-color:hsla(100,0%,0%,.6);
+  color:#d2ba87;
+  line-height:2rem;
+}
+
+.footer {
+  display: table-cell;
+  vertical-align: middle;
+}
+.footer a{
+  color:#bd806e;  
+}
+.footer a:hover{
+  color:#eda087
+}
+
+
