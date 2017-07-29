@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="[esküvői weboldal]">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes%7CLibre+Baskerville%7CMuli" rel="stylesheet">
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+ <header class="wedding">
+   <div class="zoe">
+     <div class="alex">
+       <h1>We're getting married!</h1><hr>
+       <h3>Zoe & Alex</h3>
+       <span>August 1, 2018</span>
+     </div>
+   </div>   
+ </header>
+  <main class="main">
+   <section class="location">
+    <h2>Location</h2>
+     <div class="ceremony"> 
+       <div class="first">
+         <h2>ceremony</h2>
+         <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-ceremony.png" alt="ring">
+         <div>St. Nicholas Church</div>
+         <div>2 Trinity Square, Budapest</div>
+         <hr>
+         </div>
+       <div class="first">
+         <div><h2>Photos</h2></div>
+         <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-photoshoot.png" alt="">
+         <div>Liberty Bastion</div>
+         <div>23 Wisdom Road, Budapest</div>
+         <hr></div>
+       <div class="first">
+         <div><h2>party</h2></div>
+         <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-party.png" alt="">
+         <div>Heaven Lounge</div>
+         <div>14 Fairy Street, Budapest</div>
+        <hr></div>
+        <p>&nbsp;</p> 
+       </div>
+     </section>
+   <section class=program>
+     <h2>Program</h2>
+     <div class="going">
+      <q>"It's going to be somehow, that's for sure."</q>
+      <p>13:45 – Wedding ceremony<br>
+       14:30 – Photos<br>
+       16:00 – Cocktails<br>
+       18:00 – Dinner<br>
+       22:00 – Cake<br>
+        ... - 4:00 – Dance until dawn</p>
+     </div></section>
+   <section class="gift">
+    <h2>Gifts</h2>
+    <p>The greatest gift for us is to have you there.</p>
+    <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-gifts.png" alt="" >
+    <p>Please, just bring yourself and have fun with us.</p></section>
+   <section class="question">
+    <h2>Question & answers</h2>
+     <div class="answers">
+       <div class="travel">
+       <h3>Travel and accomodation</h3>
+       <p class="strong">Will there be some kind of organized transfer?</p>
+       <p class="and">No, we'll just meet at the church at 13:15.</p>
+       <p class="strong"> Where can I park?</p>
+       <p class="and"> Parking is free on the weekends in the 1st district. The locations are close to each other so you won't need your car.</p>
+       <p class="strong">How can I get home at night?</p>
+       <p class="and">The 916 bus is in service all night at the castle and it hits every major traffic hub in the city.</p><hr>
+     </div>
+     <div class="travel">
+       <h3>food and festivities</h3>
+       <p class="strong">I'd like to do some kind of surprise for you guys at the party. To whom should I talk about this?</p>
+       <p class="and">Discuss it with Abigail Smith. Just drop her an email at <a href="">abigail@awesomemail.com.</a> </p>
+       <p class="strong">What should I wear? Do you have a dress code?</p>
+       <p class="and">Wear what's comfortable to you. If it helps <a href="">smart casual </a> / <a href="">business casual </a>for the ladies and <a href="">smart casual</a> / <a href="">informal </a>for the gentlemen are perfect options.</p>
+       <p class="strong">I would like some kind of special food (gluten-free, lactose-free, vegan etc.)</p>
+       <p class="and">Drop us a line <a href="">here </a>and we'll find a way.</p><hr>
+     </div>
+     <div class="travel">
+       <h3>other small stuff</h3>
+       <p class="strong">I have a problem / question on the wedding day. With whom can I speak?</p>
+       <p class="and">Jared Wright on this number: <a href="">+36 30 000 0000.</a></p>
+       <p class="strong">Can we bring kids?</p>
+       <p class="and">Sure! We planned a whole toy / sweets corner for them.</p>
+       <p class="strong">How do you feel about dogs? Can I bring mine?</p>
+       <p class="and">We love dogs and you can absolutely bring yours. The Heaven Lounge is a dog-friendly place.</p><hr> <p>&nbsp;</p></div>
+     </div>
+   </section>
+   <section class="contact">
+     <div>
+     <h2>Contact</h2>
+     <p>If you have any questions feel free to call / write us.</p>
+     <p>Phone: <a href="">+36 30 000 0000</a> (Zoe) / <a href="">+36 30 000 0000</a> (Alex)</p>
+       <p>Email: <a href="">zoeandalex@awesomemail.com</a></p></div>
+    </section>
+  </main>  
+ <footer>
+    <div class="footer">
+      <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> in Budapest ©2018 | Icons by <a href="http://www.flaticon.com/authors/becris"> Becris </a> (<a href="https://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a>)</p>
+    </div>
+  </footer>
+ </body>
+</html>
